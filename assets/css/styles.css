@@ -76,9 +76,15 @@ a {
     background: #143c3c;
     border-radius: 40px;
     opacity: 0.9;
+    border: 1.5px solid #143c3c;
 }
 
 .action__btn:hover {
-    opacity: 0.9;
-    cursor: pointer;
+    color: #143c3c;
+    background: #fff;
+}
+
+.header-top {
+    border-bottom: 1px solid #dddcdc;
+    padding-bottom: 20px;
 }
