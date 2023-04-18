@@ -67,7 +67,7 @@ a {
     background: #143c3c;
 }
 
-.action__btn {
+.header-action__btn {
     font-weight: 500;
     font-size: 1.8rem;
     padding: 15px 52px;
@@ -75,11 +75,10 @@ a {
     text-align: center;
     background: #143c3c;
     border-radius: 40px;
-    opacity: 0.9;
-    border: 1.5px solid #143c3c;
+    border: 2px solid #143c3c;
 }
 
-.action__btn:hover {
+.header-action__btn:hover {
     color: #143c3c;
     background: #fff;
 }
@@ -87,4 +86,151 @@ a {
 .header-top {
     border-bottom: 1px solid #dddcdc;
     padding-bottom: 20px;
+}
+
+/* Hero */
+
+.hero {
+    margin-top: 60px;
+    display: flex;
+}
+
+.hero__content {
+    margin-top: 43px;
+    flex-shrink: 0;
+    width: 43%;
+}
+
+.hero__heading {
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: 1.2;
+    color: #152427;
+}
+
+.hero__desc {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    line-height: 1.56;
+    color: #575d5e;
+}
+
+.hero__info {
+    width: 368px;
+    height: 256px;
+}
+
+.hero-action {
+    display: flex;
+    margin-top: 42px;
+}
+
+.hero-action__btn {
+    padding: 15px 35px;
+    font-size: 1.8rem;
+    line-height: 1.56;
+    text-align: center;
+    color: #ffffff;
+    background: #143c3c;
+    border-radius: 40px;
+    border: 2px solid #143c3c;
+}
+
+.hero-action__btn:hover {
+    color: #143c3c;
+    background: #fff;
+}
+
+.watch-video {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+    outline: none;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+
+.watch-video__text {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #152427;
+}
+
+.hero-action__ellipse {
+    position: absolute;
+    left: -1px;
+}
+
+.watch-video__icon {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: #83a17d;
+    border-radius: 50%;
+}
+
+.hero__media {
+    position: relative;
+    flex-grow: 1;
+}
+
+.hero__images {
+    display: flex;
+    column-gap: 20px;
+}
+
+.hero__img {
+    z-index: 1;
+    width: 202px;
+    height: 466px;
+    border-radius: 110px;
+    object-fit: cover;
+}
+
+.hero__img:nth-child(2) {
+    margin-top: 77px;
+}
+
+.hero__images::after {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    content: "";
+    width: 340px;
+    height: 340px;
+    background: #4dbb9a;
+    filter: blur(150px);
+}
+
+.lineball {
+    display: inline-block;
+    width: 545px;
+    height: 361px;
+    z-index: 2;
+    position: absolute;
+    top: -32px;
+    right: 298px;
+}
+
+.lineball__ball {
+    position: absolute;
+    top: 7px;
+    left: -40px;
+}
+
+.lineball-2 {
+    position: absolute;
+    z-index: 2;
+    bottom: -80px;
+    right: 45px;
+    rotate: 180deg;
 }
