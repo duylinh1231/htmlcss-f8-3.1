@@ -261,3 +261,128 @@ a {
     color: #163c35;
     cursor: default;
 }
+
+/* Service */
+
+.service {
+    margin-top: 106px;
+}
+
+.our {
+    display: flex;
+    align-items: center;
+    margin-left: 46px;
+    position: relative;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: #152427;
+}
+
+.our::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    left: -46px;
+    width: 25px;
+    height: 1px;
+    background: #152427;
+}
+
+.service__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading-2 {
+    position: relative;
+    width: 520px;
+    font-weight: 600;
+    font-size: 4.2rem;
+    line-height: 1.24;
+    color: #152427;
+}
+
+.heading-2::after {
+    position: absolute;
+    margin-left: 26px;
+    display: inline-block;
+    content: "";
+    bottom: 21px;
+    width: 66px;
+    height: 2px;
+    background: #152427;
+}
+
+.service-action {
+    display: flex;
+    justify-content: center;
+    column-gap: 17px;
+}
+
+.service-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    color: #152427;
+    background: #e2eddf;
+}
+
+.service-btn:hover {
+    background: #143c3c;
+    color: #fff;
+}
+
+.service-btn:last-child {
+    rotate: 180deg;
+}
+
+.service__list {
+    margin-top: 76px;
+    display: grid;
+    column-gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.service-item__thump {
+    border-radius: 20px 20px 0px 0px;
+    max-width: 100%;
+    height: 318px;
+    object-fit: cover;
+}
+
+.service-item__info {
+    padding: 24px 18px;
+    border-radius: 20px;
+}
+
+.service-item__heading {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: #152427;
+}
+
+.service-item__desc {
+    margin-top: 18px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #7d8188;
+}
+
+.service-item {
+    transition: 0.25s;
+}
+
+.service-item:hover {
+    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+    border-radius: 0 0 20px 20px;
+}
