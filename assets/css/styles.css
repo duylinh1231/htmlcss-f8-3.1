@@ -234,3 +234,30 @@ a {
     right: 45px;
     rotate: 180deg;
 }
+
+/* Client */
+
+.client {
+    margin-top: 130px;
+}
+
+.client__social {
+    display: flex;
+    padding: 76px 122px;
+    background: #e2eddf;
+    border-radius: 100.5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client__logo-3 {
+    display: flex;
+    align-items: center;
+}
+
+.client__logo-text {
+    margin-left: 11px;
+    font-size: 2.6rem;
+    color: #163c35;
+    cursor: default;
+}
